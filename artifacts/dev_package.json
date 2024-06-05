@@ -7,7 +7,7 @@
 	},
 	"name": "neptunesoftware-dxp-abb-trip-management",
 	"description": "Hotel booking, flight booking, car hire apps",
-	"ver": "24.06.05.1209",
+	"ver": "24.06.05.1211",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -203,7 +203,13 @@
 			"name": "Travel Expenses - Main"
 		}
 	],
-	"launchpad": [],
+	"launchpad": [
+		{
+			"id": "fcde876a-a5fc-ee11-aaf0-000d3adaf09c",
+			"name": "Travel-Management-Portal",
+			"description": null
+		}
+	],
 	"certificates": [],
 	"role": [],
 	"systems": [],
