@@ -1,0 +1,19 @@
+if (typeof checkin === "undefined" || checkin === null || checkin === "") { return; }  
+
+checkin = new Date(checkin);
+
+checkin.setDate(checkin.getDate() - 2);
+
+var options = {
+    year: 'numeric',
+    month: 'short',
+    day: '2-digit',
+    hour: 'numeric',
+    minute: 'numeric',
+    second: 'numeric',
+    hour12: true
+};
+
+var formattedText = new Intl.DateTimeFormat('en-US', options).format(checkin);
+
+return formattedText;

@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+* {
+  font-family: "Source Sans Pro";
+}
+
+.textTop {
+  font-size: 1.1rem;
+}
+
+.textBottom2 {
+  font-size: 1.1rem;
+  color: red;
+}
+
+.textBottom2 {
+  font-size: 1.1rem;
+}
+
+.number {
+  font-size: 3rem;
+  font-weight: lighter;
+}
+
+.icon {
+  margin-top: 12px;
+}
+
+.percentage {
+  margin-top: 19px !important;
+  color: red;
+}
+
+.spend {
+  font-size: 1.1rem;
+}
+
+.infoBox2 {
+  margin-left: 0rem;
+}
+
+.daysRemainingBox {
+  margin-left: -3rem;
+}
+
+.symbols {
+  font-size: 1.8rem;
+}

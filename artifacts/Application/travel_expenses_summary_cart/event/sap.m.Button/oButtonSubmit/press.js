@@ -1,0 +1,2 @@
+clearForm();
+OpenoMsgInfo();

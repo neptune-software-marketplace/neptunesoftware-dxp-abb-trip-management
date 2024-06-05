@@ -1,0 +1,7 @@
+if (typeof guests === "undefined" || guests === null || guests === "") { return; }  
+
+if (guests !== " "){
+    var formattedText = "Guests: " + guests;
+}
+
+return formattedText;

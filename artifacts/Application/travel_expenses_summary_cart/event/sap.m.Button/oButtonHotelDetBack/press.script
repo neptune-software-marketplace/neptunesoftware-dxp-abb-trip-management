@@ -1,0 +1,2 @@
+oApp.backDetailToPage(MessagePage);
+oApp.backMasterToPage(oPageMaster);

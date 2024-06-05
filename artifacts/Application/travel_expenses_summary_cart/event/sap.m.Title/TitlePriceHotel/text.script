@@ -1,0 +1,4 @@
+if (currency === "GBP"){
+    var formattedText = (price * 1.17).toFixed(2) + " EUR";
+}
+return formattedText;

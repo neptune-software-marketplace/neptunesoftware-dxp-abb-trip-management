@@ -1,0 +1,54 @@
+// Importing the "Source Sans Pro" font from Google Fonts
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+$text-font: "Source Sans Pro";
+
+* {
+    font-family: $text-font;
+}
+
+.textTop {
+    font-size: 1.1rem;
+}
+
+.textBottom {
+    font-size: 1.1rem;
+    color: green;
+}
+
+.textBottom2 {
+    font-size: 1.1rem;
+}
+
+.textBottomDays {
+    font-size: 1.1rem;
+}
+
+.number {
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.icon {
+    margin-top: 12px;
+}
+
+.percentageGreen {
+    margin-top: 19px !important;
+    color: green;
+}
+
+.spend {
+    font-size: 1.1rem;
+}
+
+.infoBox {
+    margin-left: -2rem;
+}
+
+.daysRemainingBox {
+    margin-left: -3rem;
+}
+
+.symbols {
+    font-size: 1.8rem;
+}

@@ -1,0 +1,8 @@
+if (typeof photoUrl === "undefined" || photoUrl === null) { return; }  
+if (photoUrl === "") {
+   photoUrl =  "/media/root/DemoTravelSuite/hotel_image_transparent.png";
+} else {
+    photoUrl = "/proxy/" + encodeURIComponent(photoUrl);
+}
+var formattedText = photoUrl; 
+return formattedText;

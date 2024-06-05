@@ -1,0 +1,16 @@
+if (typeof location === "undefined" || location === null || location === "") { return; }  
+
+if(location === "LON"){
+    var formattedText = "City: London";
+}
+else if(location === "BAR"){
+    var formattedText = "City: Barcelona";
+}
+else if(location === "MAD"){
+    var formattedText = "City: Madrid";
+}
+else if(location === "PAR"){
+    var formattedText = "City: Paris";
+}
+
+return formattedText;

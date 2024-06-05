@@ -1,0 +1,15 @@
+.TotalPrice {
+  border-color: #00A1C1;
+  border-width: medium;
+  border-style: solid;
+  padding: 4px;
+  border-radius: 25px;
+  width: 10rem;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.TotalPriceTitle.sapMBarChild.sapMTitle.sapMTitleMaxWidth.sapMTitleNoWrap.sapMTitleStyleH3.sapUiSelectable {
+  color: #000;
+  text-shadow: 0 0 0.125rem #fff;
+}

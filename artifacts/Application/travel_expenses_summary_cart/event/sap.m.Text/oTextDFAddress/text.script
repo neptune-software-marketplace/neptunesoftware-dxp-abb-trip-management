@@ -1,0 +1,16 @@
+if (typeof location === "undefined" || location === null || location === "") { return; }  
+
+if(location === "LON"){
+    var formattedText = "21 Down Street, Mayfair, London";
+}
+else if(location === "BAR"){
+    var formattedText = "23 Avenida Diagonal, Barcelona";
+}
+else if(location === "MAD"){
+    var formattedText = "14 Gran Via, Madrid";
+}
+else if(location === "PAR"){
+    var formattedText = "4 Champs-Élysées Paris";
+}
+
+return formattedText;

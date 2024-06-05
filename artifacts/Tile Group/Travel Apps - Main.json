@@ -1,0 +1,98 @@
+{
+	"id": "464eac80-5717-ef11-96f5-000d3add6b9f",
+	"createdAt": "2024-05-21T09:50:07.040Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"translation": [],
+	"tilesOrder": [
+		"63b86ef0-3c6f-ee11-9937-000d3a66797c",
+		"16c7d778-7e71-ee11-9937-000d3a66797c",
+		"f26ca25c-8771-ee11-9937-000d3a66797c"
+	],
+	"tilegroupsOrder": [
+		"8a2467fc-4b17-ef11-96f5-000d3add6b9f"
+	],
+	"configMessage": {
+		"type": "None"
+	},
+	"title": "Travel Management Portal",
+	"subTitle": null,
+	"description": null,
+	"titleAlignment": null,
+	"enableFullScreen": false,
+	"hideHeader": false,
+	"backgroundType": "cards",
+	"backgroundColor": "",
+	"backgroundShade": null,
+	"type": null,
+	"image": null,
+	"icon": null,
+	"sort": null,
+	"inclFav": false,
+	"styleClass": null,
+	"enableScroll": false,
+	"enableShadeCalc": false,
+	"numTiles": null,
+	"enableMessage": false,
+	"ver": "24.05.21.0950",
+	"headColor": null,
+	"headTxtClr": null,
+	"subheadTxtClr": null,
+	"headBorderClr": null,
+	"headBorderWidth": null,
+	"imageTablet": null,
+	"imageMobile": null,
+	"imageCover": false,
+	"imageTabletCover": false,
+	"imageMobileCover": false,
+	"imageMobileHeight": null,
+	"imageTabletHeight": null,
+	"imageHeight": null,
+	"name": "Travel Apps - Main",
+	"cardContentWidth": null,
+	"cardContentAlign": null,
+	"cardPerRow": "Few",
+	"cardStyle": null,
+	"cardHeightFit": false,
+	"imagePlacement": null,
+	"imageRepeat": null,
+	"imageSize": null,
+	"imageTabletPlacement": null,
+	"imageTabletRepeat": null,
+	"imageTabletSize": null,
+	"imageMobilePlacement": null,
+	"imageMobileRepeat": null,
+	"imageMobileSize": null,
+	"hideFromMenu": false,
+	"roleTag": null,
+	"cockpitTileGroup": false,
+	"package": "af681f59-150d-ef11-96f5-000d3a662316",
+	"roles": [],
+	"tiles": [
+		{
+			"id": "f26ca25c-8771-ee11-9937-000d3a66797c",
+			"name": "Travel_expenses_most_spending",
+			"title": null,
+			"ver": "24.06.05.1031"
+		},
+		{
+			"id": "63b86ef0-3c6f-ee11-9937-000d3a66797c",
+			"name": "Travel_expenses_current_month_card",
+			"title": "",
+			"ver": "24.06.05.1031"
+		},
+		{
+			"id": "16c7d778-7e71-ee11-9937-000d3a66797c",
+			"name": "Travel_expenses_current_month",
+			"title": null,
+			"ver": "24.06.05.1031"
+		}
+	],
+	"tilegroups": [
+		{
+			"id": "8a2467fc-4b17-ef11-96f5-000d3add6b9f",
+			"name": "Travel Apps",
+			"title": "Travel Management Apps",
+			"ver": "24.06.04.0849"
+		}
+	]
+}

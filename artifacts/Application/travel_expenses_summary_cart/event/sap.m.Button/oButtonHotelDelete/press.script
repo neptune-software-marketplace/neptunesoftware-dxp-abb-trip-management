@@ -1,0 +1,19 @@
+var data = modeloFormHotelDetails.getData();
+console.log("HOTEL DATA: ", data);
+
+ModelData.Delete(oListHotelsSelected, "id", data.id, "EQ");
+setCacheoListHotelsSelected();
+
+jQuery.sap.require("sap.m.MessageBox");
+sap.m.MessageBox.show("Item successfully removed from Trip");
+
+oApp.backDetailToPage(MessagePage);
+oApp.backMasterToPage(oPageMaster);
+
+setTimeout(function() {
+    var data = modeloListHotelsSelected.getData();
+    modeloListHotels.setData(data);
+    getValuesAndTotals();
+}, 100);
+
+oButtonRefreshListss.firePress();
