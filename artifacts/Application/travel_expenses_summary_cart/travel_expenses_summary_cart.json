@@ -4303,13 +4303,14 @@
 															"fieldType": "sap.m.Text",
 															"script": "",
 															"customComponent": false,
+															"bindingType": "h",
 															"request": [],
 															"response": [],
 															"attributes": [
 																{
 																	"attribute": "text",
 																	"grouping": "Properties",
-																	"value": "{/grandTotal,/currency}",
+																	"value": "{/grandTotal, /currency}",
 																	"script": "",
 																	"translation": []
 																},
@@ -8378,7 +8379,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "24.06.05.1056",
+	"ver": "24.06.05.1223",
 	"application": "travel_expenses_summary_cart",
 	"title": "",
 	"description": "",

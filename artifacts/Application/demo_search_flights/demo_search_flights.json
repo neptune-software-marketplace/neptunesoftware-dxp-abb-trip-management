@@ -480,6 +480,13 @@
 											"response": [],
 											"attributes": [
 												{
+													"attribute": "enabled",
+													"grouping": "Properties",
+													"value": "true",
+													"script": "",
+													"translation": []
+												},
+												{
 													"attribute": "customTextOn",
 													"grouping": "Properties",
 													"value": "Yes",
@@ -4922,7 +4929,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "24.06.05.1052",
+	"ver": "24.06.05.1218",
 	"application": "demo_search_flights",
 	"title": "",
 	"description": "",
