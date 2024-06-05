@@ -480,13 +480,6 @@
 											"response": [],
 											"attributes": [
 												{
-													"attribute": "enabled",
-													"grouping": "Properties",
-													"value": "true",
-													"script": "",
-													"translation": []
-												},
-												{
 													"attribute": "customTextOn",
 													"grouping": "Properties",
 													"value": "Yes",
@@ -621,27 +614,6 @@
 									"script": "",
 									"translation": []
 								},
-								{
-									"attribute": "position",
-									"grouping": "Parent",
-									"value": "addDetailPage",
-									"script": "",
-									"translation": []
-								}
-							],
-							"data": []
-						},
-						{
-							"fieldNo": "6cc41940-ad01-44af-950f-7a16eac1bbba",
-							"fieldName": "oPageBlank",
-							"fieldParent": "6e997fb2-e6d8-4658-c813-b5c2d7210608",
-							"fieldType": "sap.m.Page",
-							"script": "",
-							"customComponent": false,
-							"disabled": true,
-							"request": [],
-							"response": [],
-							"attributes": [
 								{
 									"attribute": "position",
 									"grouping": "Parent",
@@ -1183,41 +1155,6 @@
 																					]
 																				}
 																			]
-																		},
-																		{
-																			"fieldNo": "0da098b1-1f7e-4fb1-ad87-6322872f68ed",
-																			"fieldName": "oVBoxOutbound2",
-																			"fieldParent": "c78a9470-a0c6-40cf-e01a-a2c1c723e7ad",
-																			"fieldType": "sap.m.VBox",
-																			"script": "",
-																			"customComponent": false,
-																			"disabled": true,
-																			"request": [],
-																			"response": [],
-																			"attributes": [
-																				{
-																					"attribute": "justifyContent",
-																					"grouping": "Properties",
-																					"value": "Center",
-																					"script": "",
-																					"translation": []
-																				},
-																				{
-																					"attribute": "alignItems",
-																					"grouping": "Properties",
-																					"value": "Center",
-																					"script": "",
-																					"translation": []
-																				},
-																				{
-																					"attribute": "alignContent",
-																					"grouping": "Properties",
-																					"value": "Center",
-																					"script": "",
-																					"translation": []
-																				}
-																			],
-																			"data": []
 																		}
 																	]
 																},
@@ -1635,34 +1572,6 @@
 																					]
 																				}
 																			]
-																		},
-																		{
-																			"fieldNo": "c75e94c4-4aea-402a-e3f8-93199a6c1bf3",
-																			"fieldName": "oVBoxInbound2",
-																			"fieldParent": "82856021-e239-45e6-d8bf-3edc042a92e2",
-																			"fieldType": "sap.m.VBox",
-																			"script": "",
-																			"customComponent": false,
-																			"disabled": true,
-																			"request": [],
-																			"response": [],
-																			"attributes": [
-																				{
-																					"attribute": "alignItems",
-																					"grouping": "Properties",
-																					"value": "Center",
-																					"script": "",
-																					"translation": []
-																				},
-																				{
-																					"attribute": "alignContent",
-																					"grouping": "Properties",
-																					"value": "Center",
-																					"script": "",
-																					"translation": []
-																				}
-																			],
-																			"data": []
 																		}
 																	]
 																}
@@ -4669,257 +4578,6 @@
 							"data": []
 						}
 					]
-				},
-				{
-					"fieldNo": "3f05cb4f-dd5e-4817-a990-aac36a0ed78c",
-					"fieldName": "ContentNotUsed",
-					"fieldParent": 99999,
-					"fieldType": "neptune.folder",
-					"script": "",
-					"customComponent": false,
-					"disabled": true,
-					"request": [],
-					"response": [],
-					"attributes": [],
-					"data": [
-						{
-							"fieldNo": "62a47540-27a5-4aaa-efec-164fda4e7449",
-							"fieldName": "oMultiModelConfigData",
-							"fieldParent": "3f05cb4f-dd5e-4817-a990-aac36a0ed78c",
-							"fieldType": "neptune.model",
-							"script": "",
-							"customComponent": false,
-							"disabled": true,
-							"bindingValue": "democorptravel_script_apis>data",
-							"bindingType": "h",
-							"bindingSource": "API",
-							"bindingParentID": "459937c4-71fa-4c51-87c2-8ad4e8ff8fdf",
-							"bindingPathID": "411476dc-3851-4224-eb9b-adfd02ace1ea",
-							"request": [],
-							"response": [],
-							"attributes": [],
-							"data": []
-						},
-						{
-							"fieldNo": "56a4e584-20b9-4af2-c4ce-4630d618f27a",
-							"fieldName": "oMultiModelAirpFrom",
-							"fieldParent": "3f05cb4f-dd5e-4817-a990-aac36a0ed78c",
-							"fieldType": "neptune.model",
-							"script": "",
-							"customComponent": false,
-							"disabled": true,
-							"bindingValue": "Amadeus_LocationSearch>Location",
-							"bindingType": "h",
-							"bindingSource": "API",
-							"bindingParentID": "6c0a848c-cd2a-4d5f-b30c-59c65f8b6990",
-							"bindingPathID": "2a8db165-6127-4f4f-d392-0128d12012ce",
-							"request": [],
-							"response": [],
-							"attributes": [],
-							"data": []
-						},
-						{
-							"fieldNo": "654d2178-eda6-48bc-d91a-b371c5e366ce",
-							"fieldName": "oMultiModelAirpTo",
-							"fieldParent": "3f05cb4f-dd5e-4817-a990-aac36a0ed78c",
-							"fieldType": "neptune.model",
-							"script": "",
-							"customComponent": false,
-							"disabled": true,
-							"bindingValue": "Amadeus_LocationSearch>Location",
-							"bindingType": "h",
-							"bindingSource": "API",
-							"bindingParentID": "6c0a848c-cd2a-4d5f-b30c-59c65f8b6990",
-							"bindingPathID": "2a8db165-6127-4f4f-d392-0128d12012ce",
-							"request": [],
-							"response": [],
-							"attributes": [],
-							"data": []
-						},
-						{
-							"fieldNo": "b41be008-7148-4f57-bc9f-c0fca235c903",
-							"fieldName": "oMultiModelAmadeusFlights",
-							"fieldParent": "3f05cb4f-dd5e-4817-a990-aac36a0ed78c",
-							"fieldType": "neptune.model",
-							"script": "",
-							"customComponent": false,
-							"disabled": true,
-							"bindingValue": "Amadeus_FlightSearch>FlightOffer",
-							"bindingType": "h",
-							"bindingSource": "API",
-							"bindingParentID": "319021fa-f707-49ec-a83c-6180fd31b959",
-							"bindingPathID": "0f679dd9-a34e-4fe8-af18-d1e6318ca27d",
-							"request": [],
-							"response": [],
-							"attributes": [],
-							"data": []
-						},
-						{
-							"fieldNo": "4b7e69f1-6ccf-4843-aa07-ad9ffa7a516b",
-							"fieldName": "oAPIGetConfigData",
-							"fieldParent": "3f05cb4f-dd5e-4817-a990-aac36a0ed78c",
-							"fieldType": "neptune.restapi",
-							"script": "",
-							"customComponent": false,
-							"disabled": true,
-							"restSource": "459937c4-71fa-4c51-87c2-8ad4e8ff8fdf",
-							"restOperation": "9a80baa1-9bc2-40e7-ac5c-8e481731a908",
-							"request": [],
-							"response": [
-								{
-									"status": "200",
-									"dataId": "411476dc-3851-4224-eb9b-adfd02ace1ea",
-									"modelFieldNo": "62a47540-27a5-4aaa-efec-164fda4e7449"
-								}
-							],
-							"attributes": [
-								{
-									"attribute": "setInitLoad",
-									"grouping": "Model",
-									"value": "online",
-									"script": "",
-									"translation": []
-								},
-								{
-									"attribute": "ajaxSuccess",
-									"grouping": "Events",
-									"value": "Anonymous Function",
-									"script": "file://event/neptune.restapi/oAPIGetConfigData/ajaxSuccess.script",
-									"translation": []
-								}
-							],
-							"data": []
-						},
-						{
-							"fieldNo": "f382ce92-4249-48b7-e797-bb2ed1835104",
-							"fieldName": "oAPIGetAirpFrom",
-							"fieldParent": "3f05cb4f-dd5e-4817-a990-aac36a0ed78c",
-							"fieldType": "neptune.restapi",
-							"script": "",
-							"customComponent": false,
-							"disabled": true,
-							"restSource": "6c0a848c-cd2a-4d5f-b30c-59c65f8b6990",
-							"restOperation": "061089ae-106d-43b3-e97d-ff9dec6179c1",
-							"request": [],
-							"response": [
-								{
-									"status": "200",
-									"dataId": "2a8db165-6127-4f4f-d392-0128d12012ce",
-									"modelFieldNo": "56a4e584-20b9-4af2-c4ce-4630d618f27a"
-								}
-							],
-							"attributes": [
-								{
-									"attribute": "ajaxSuccess",
-									"grouping": "Events",
-									"value": "Anonymous Function",
-									"script": "file://event/neptune.restapi/oAPIGetAirpFrom/ajaxSuccess.script",
-									"translation": []
-								}
-							],
-							"data": []
-						},
-						{
-							"fieldNo": "e4df211b-1bfc-410c-9fc6-9ba2768e76e4",
-							"fieldName": "oAPIGetAirpTo",
-							"fieldParent": "3f05cb4f-dd5e-4817-a990-aac36a0ed78c",
-							"fieldType": "neptune.restapi",
-							"script": "",
-							"customComponent": false,
-							"disabled": true,
-							"restSource": "6c0a848c-cd2a-4d5f-b30c-59c65f8b6990",
-							"restOperation": "061089ae-106d-43b3-e97d-ff9dec6179c1",
-							"request": [],
-							"response": [
-								{
-									"status": "200",
-									"dataId": "2a8db165-6127-4f4f-d392-0128d12012ce",
-									"modelFieldNo": "654d2178-eda6-48bc-d91a-b371c5e366ce"
-								}
-							],
-							"attributes": [
-								{
-									"attribute": "ajaxSuccess",
-									"grouping": "Events",
-									"value": "Anonymous Function",
-									"script": "file://event/neptune.restapi/oAPIGetAirpTo/ajaxSuccess.script",
-									"translation": []
-								}
-							],
-							"data": []
-						},
-						{
-							"fieldNo": "093d6150-ade0-4095-8ee0-0e0fe08eac5e",
-							"fieldName": "oAPIAmadeusSearchFlightsFrom",
-							"fieldParent": "3f05cb4f-dd5e-4817-a990-aac36a0ed78c",
-							"fieldType": "neptune.restapi",
-							"script": "",
-							"customComponent": false,
-							"disabled": true,
-							"restSource": "319021fa-f707-49ec-a83c-6180fd31b959",
-							"restOperation": "5929e08f-a78c-4171-cfd5-55f429d5bec0",
-							"request": [],
-							"response": [
-								{
-									"status": "200",
-									"dataId": "0f679dd9-a34e-4fe8-af18-d1e6318ca27d",
-									"modelFieldNo": "b41be008-7148-4f57-bc9f-c0fca235c903"
-								},
-								{
-									"status": "200",
-									"dataId": "0f679dd9-a34e-4fe8-af18-d1e6318ca27d",
-									"modelFieldNo": "b41be008-7148-4f57-bc9f-c0fca235c903"
-								}
-							],
-							"attributes": [
-								{
-									"attribute": "ajaxSuccess",
-									"grouping": "Events",
-									"value": "Anonymous Function",
-									"script": "file://event/neptune.restapi/oAPIAmadeusSearchFlightsFrom/ajaxSuccess.script",
-									"translation": []
-								},
-								{
-									"attribute": "ajaxError",
-									"grouping": "Events",
-									"value": "Anonymous Function",
-									"script": "file://event/neptune.restapi/oAPIAmadeusSearchFlightsFrom/ajaxError.script",
-									"translation": []
-								}
-							],
-							"data": []
-						},
-						{
-							"fieldNo": "22045fdc-b75f-4b91-f43f-7cee3fc13b2a",
-							"fieldName": "oAPIAmadeusSearchFlightsTo",
-							"fieldParent": "3f05cb4f-dd5e-4817-a990-aac36a0ed78c",
-							"fieldType": "neptune.restapi",
-							"script": "",
-							"customComponent": false,
-							"disabled": true,
-							"restSource": "319021fa-f707-49ec-a83c-6180fd31b959",
-							"restOperation": "5929e08f-a78c-4171-cfd5-55f429d5bec0",
-							"request": [],
-							"response": [],
-							"attributes": [
-								{
-									"attribute": "ajaxSuccess",
-									"grouping": "Events",
-									"value": "Anonymous Function",
-									"script": "file://event/neptune.restapi/oAPIAmadeusSearchFlightsTo/ajaxSuccess.script",
-									"translation": []
-								},
-								{
-									"attribute": "ajaxError",
-									"grouping": "Events",
-									"value": "Anonymous Function",
-									"script": "file://event/neptune.restapi/oAPIAmadeusSearchFlightsTo/ajaxError.script",
-									"translation": []
-								}
-							],
-							"data": []
-						}
-					]
 				}
 			]
 		},
@@ -4929,7 +4587,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "24.06.05.1218",
+	"ver": "24.06.05.1253",
 	"application": "demo_search_flights",
 	"title": "",
 	"description": "",

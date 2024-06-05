@@ -1,7 +1,0 @@
-if (typeof location === "undefined" || location === null || location === "") { return; }  
-
-if(location === "LON"){
-    var fomattedText = "Down Street, Mayfair, London";
-}
-
-return formattedText;

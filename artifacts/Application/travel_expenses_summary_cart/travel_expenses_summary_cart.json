@@ -1154,99 +1154,6 @@
 																	]
 																}
 															]
-														},
-														{
-															"fieldNo": "519cd889-63e3-46d0-ed89-7d4860bc2dd8",
-															"fieldName": "oHBox1",
-															"fieldParent": "d9f7f20e-76b6-4cd3-8f6a-4dbfb51f2a50",
-															"fieldType": "sap.m.HBox",
-															"script": "",
-															"customComponent": false,
-															"disabled": true,
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "styleClassMargin",
-																	"grouping": "Properties",
-																	"value": "sapUiTinyMargin",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "justifyContent",
-																	"grouping": "Properties",
-																	"value": "SpaceBetween",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "alignItems",
-																	"grouping": "Properties",
-																	"value": "Stretch",
-																	"script": "",
-																	"translation": []
-																}
-															],
-															"data": [
-																{
-																	"fieldNo": "282eaae9-89cd-4e4e-9b9a-ba8010f5ca5e",
-																	"fieldName": "oTextCabin",
-																	"fieldParent": "519cd889-63e3-46d0-ed89-7d4860bc2dd8",
-																	"fieldType": "sap.m.Text",
-																	"script": "",
-																	"customComponent": false,
-																	"disabled": true,
-																	"bindingType": "h",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "{cabin}",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "text",
-																			"grouping": "Formatter",
-																			"value": "Anonymous Function",
-																			"script": "file://event/sap.m.Text/oTextCabin/text.script",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																},
-																{
-																	"fieldNo": "49312a37-19cd-4224-bc1c-46f62d679cdd",
-																	"fieldName": "oVBox4",
-																	"fieldParent": "519cd889-63e3-46d0-ed89-7d4860bc2dd8",
-																	"fieldType": "sap.m.VBox",
-																	"script": "",
-																	"customComponent": false,
-																	"disabled": true,
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "styleClass",
-																			"grouping": "Properties",
-																			"value": "TotalPrice",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "alignContent",
-																			"grouping": "Properties",
-																			"value": "Center",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
 														}
 													]
 												}
@@ -1469,35 +1376,6 @@
 																			"data": []
 																		},
 																		{
-																			"fieldNo": "6ae8a77b-91b5-440b-c423-dab7cbdce6b0",
-																			"fieldName": "oTextAddress",
-																			"fieldParent": "9514b178-6983-4307-831c-8eaadf024c0b",
-																			"fieldType": "sap.m.Text",
-																			"script": "",
-																			"customComponent": false,
-																			"disabled": true,
-																			"bindingType": "h",
-																			"request": [],
-																			"response": [],
-																			"attributes": [
-																				{
-																					"attribute": "text",
-																					"grouping": "Properties",
-																					"value": "{location}",
-																					"script": "",
-																					"translation": []
-																				},
-																				{
-																					"attribute": "text",
-																					"grouping": "Formatter",
-																					"value": "Anonymous Function",
-																					"script": "file://event/sap.m.Text/oTextAddress/text.script",
-																					"translation": []
-																				}
-																			],
-																			"data": []
-																		},
-																		{
 																			"fieldNo": "2770108d-4695-4692-93cc-8b5f3e6ee640",
 																			"fieldName": "TextGuests",
 																			"fieldParent": "9514b178-6983-4307-831c-8eaadf024c0b",
@@ -1520,41 +1398,6 @@
 																					"grouping": "Formatter",
 																					"value": "Anonymous Function",
 																					"script": "file://event/sap.m.Text/TextGuests/text.script",
-																					"translation": []
-																				}
-																			],
-																			"data": []
-																		},
-																		{
-																			"fieldNo": "b08ff820-aa69-42df-c5b0-012ab3618299",
-																			"fieldName": "oAttrRating",
-																			"fieldParent": "9514b178-6983-4307-831c-8eaadf024c0b",
-																			"fieldType": "sap.m.ObjectAttribute",
-																			"script": "",
-																			"customComponent": false,
-																			"disabled": true,
-																			"request": [],
-																			"response": [],
-																			"attributes": [
-																				{
-																					"attribute": "title",
-																					"grouping": "Properties",
-																					"value": "Rating",
-																					"script": "",
-																					"translation": []
-																				},
-																				{
-																					"attribute": "text",
-																					"grouping": "Properties",
-																					"value": "{rating}",
-																					"script": "",
-																					"translation": []
-																				},
-																				{
-																					"attribute": "text",
-																					"grouping": "Formatter",
-																					"value": "Anonymous Function",
-																					"script": "file://event/sap.m.ObjectAttribute/oAttrRating/text.script",
 																					"translation": []
 																				}
 																			],
@@ -1666,84 +1509,6 @@
 																					"grouping": "Formatter",
 																					"value": "Anonymous Function",
 																					"script": "file://event/sap.m.Title/TitlePriceHotel/text.script",
-																					"translation": []
-																				}
-																			],
-																			"data": []
-																		}
-																	]
-																},
-																{
-																	"fieldNo": "441fe09b-8912-4e50-e3bf-5389700d8cd3",
-																	"fieldName": "oVBox2",
-																	"fieldParent": "1d3cc534-eeb9-4b5a-e66e-60e8479e7358",
-																	"fieldType": "sap.m.VBox",
-																	"script": "",
-																	"customComponent": false,
-																	"disabled": true,
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "styleClass",
-																			"grouping": "Properties",
-																			"value": "TotalPrice",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "justifyContent",
-																			"grouping": "Properties",
-																			"value": "Center",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "alignItems",
-																			"grouping": "Properties",
-																			"value": "Center",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "alignContent",
-																			"grouping": "Properties",
-																			"value": "Center",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": [
-																		{
-																			"fieldNo": "45f7c76c-18d1-4420-94af-3b32eaa74a07",
-																			"fieldName": "oTitlePrice",
-																			"fieldParent": "441fe09b-8912-4e50-e3bf-5389700d8cd3",
-																			"fieldType": "sap.m.Title",
-																			"script": "",
-																			"customComponent": false,
-																			"disabled": true,
-																			"request": [],
-																			"response": [],
-																			"attributes": [
-																				{
-																					"attribute": "titleStyle",
-																					"grouping": "Properties",
-																					"value": "H2",
-																					"script": "",
-																					"translation": []
-																				},
-																				{
-																					"attribute": "text",
-																					"grouping": "Properties",
-																					"value": "{price, currency}",
-																					"script": "",
-																					"translation": []
-																				},
-																				{
-																					"attribute": "text",
-																					"grouping": "Formatter",
-																					"value": "Anonymous Function",
-																					"script": "file://event/sap.m.Title/oTitlePrice/text.script",
 																					"translation": []
 																				}
 																			],
@@ -2350,27 +2115,6 @@
 							"data": []
 						},
 						{
-							"fieldNo": "4fb1d3b9-d711-423e-d97f-3bd328024607",
-							"fieldName": "oPageBlank",
-							"fieldParent": "1",
-							"fieldType": "sap.m.Page",
-							"script": "",
-							"customComponent": false,
-							"disabled": true,
-							"request": [],
-							"response": [],
-							"attributes": [
-								{
-									"attribute": "position",
-									"grouping": "Parent",
-									"value": "addDetailPage",
-									"script": "",
-									"translation": []
-								}
-							],
-							"data": []
-						},
-						{
 							"fieldNo": "6e4602a0-8b67-405b-8c61-bd1c56244baa",
 							"fieldName": "oPageDetailFlights",
 							"fieldParent": "1",
@@ -2517,34 +2261,6 @@
 																			"grouping": "Formatter",
 																			"value": "Anonymous Function",
 																			"script": "file://event/sap.m.Title/oTitleOutboundFromTo/text.script",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																},
-																{
-																	"fieldNo": "d4186283-b0d7-44e1-a623-4296c6c31a6b",
-																	"fieldName": "oTitleOutboundTravelTime",
-																	"fieldParent": "73f89eca-0b64-4be7-cb4a-626b37c158c6",
-																	"fieldType": "sap.m.Title",
-																	"script": "",
-																	"customComponent": false,
-																	"disabled": true,
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "titleStyle",
-																			"grouping": "Properties",
-																			"value": "H2",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "{/outbTotalTravelTime}",
-																			"script": "",
 																			"translation": []
 																		}
 																	],
@@ -3352,34 +3068,6 @@
 																			"grouping": "Formatter",
 																			"value": "Anonymous Function",
 																			"script": "file://event/sap.m.Title/oTitleInboundFromTo/text.script",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																},
-																{
-																	"fieldNo": "c0e3151b-9025-4bb5-fa16-b071f8500841",
-																	"fieldName": "oTitleInboundTravelTime",
-																	"fieldParent": "7c9ebb2e-2df3-4fe0-df63-497b3a74232b",
-																	"fieldType": "sap.m.Title",
-																	"script": "",
-																	"customComponent": false,
-																	"disabled": true,
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "titleStyle",
-																			"grouping": "Properties",
-																			"value": "H2",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "{/inbTotalTravelTime}",
-																			"script": "",
 																			"translation": []
 																		}
 																	],
@@ -4297,20 +3985,19 @@
 															"data": []
 														},
 														{
-															"fieldNo": "92440a36-fcda-4624-8846-44e88223366f",
-															"fieldName": "oTextPDTotal",
+															"fieldNo": "d2ef3265-7107-4cb0-803a-5777c0a3df88",
+															"fieldName": "TextPDTotal",
 															"fieldParent": "350201a5-ae4b-4431-ce74-4a3daf81198a",
 															"fieldType": "sap.m.Text",
 															"script": "",
 															"customComponent": false,
-															"bindingType": "h",
 															"request": [],
 															"response": [],
 															"attributes": [
 																{
 																	"attribute": "text",
 																	"grouping": "Properties",
-																	"value": "{/grandTotal, /currency}",
+																	"value": "{/grandTotal}",
 																	"script": "",
 																	"translation": []
 																},
@@ -4318,266 +4005,6 @@
 																	"attribute": "styleClass",
 																	"grouping": "Properties",
 																	"value": "fontTotal",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "text",
-																	"grouping": "Formatter",
-																	"value": "Anonymous Function",
-																	"script": "file://event/sap.m.Text/oTextPDTotal/text.script",
-																	"translation": []
-																}
-															],
-															"data": []
-														}
-													]
-												},
-												{
-													"fieldNo": "f17c48ac-00e6-487b-9272-781240d1db64",
-													"fieldName": "oGrid",
-													"fieldParent": "95ce01d3-8346-4901-cac2-ba4634101d7f",
-													"fieldType": "sap.ui.layout.Grid",
-													"script": "",
-													"customComponent": false,
-													"disabled": true,
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "hSpacing",
-															"grouping": "Properties",
-															"value": "2",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": [
-														{
-															"fieldNo": "3a70e1cd-330c-4957-e420-d0b0dd8fd01a",
-															"fieldName": "oGridDataPD1",
-															"fieldParent": "f17c48ac-00e6-487b-9272-781240d1db64",
-															"fieldType": "sap.ui.layout.GridData",
-															"script": "",
-															"customComponent": false,
-															"disabled": true,
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "spanS",
-																	"grouping": "Properties",
-																	"value": "4",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "spanM",
-																	"grouping": "Properties",
-																	"value": "4",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "spanL",
-																	"grouping": "Properties",
-																	"value": "4",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "linebreak",
-																	"grouping": "Properties",
-																	"value": "true",
-																	"script": "",
-																	"translation": []
-																}
-															],
-															"data": []
-														},
-														{
-															"fieldNo": "237ec0ab-4f22-4de0-a0fb-f6c45be9f8f5",
-															"fieldName": "oGridDataPD2",
-															"fieldParent": "f17c48ac-00e6-487b-9272-781240d1db64",
-															"fieldType": "sap.ui.layout.GridData",
-															"script": "",
-															"customComponent": false,
-															"disabled": true,
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "spanS",
-																	"grouping": "Properties",
-																	"value": "8",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "spanM",
-																	"grouping": "Properties",
-																	"value": "8",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "spanL",
-																	"grouping": "Properties",
-																	"value": "8",
-																	"script": "",
-																	"translation": []
-																}
-															],
-															"data": []
-														},
-														{
-															"fieldNo": "4385164d-6c71-4d1b-82ad-6d36d39b7fe7",
-															"fieldName": "oGridDataPD3",
-															"fieldParent": "f17c48ac-00e6-487b-9272-781240d1db64",
-															"fieldType": "sap.ui.layout.GridData",
-															"script": "",
-															"customComponent": false,
-															"disabled": true,
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "spanS",
-																	"grouping": "Properties",
-																	"value": "4",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "spanM",
-																	"grouping": "Properties",
-																	"value": "4",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "spanL",
-																	"grouping": "Properties",
-																	"value": "4",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "linebreak",
-																	"grouping": "Properties",
-																	"value": "true",
-																	"script": "",
-																	"translation": []
-																}
-															],
-															"data": []
-														},
-														{
-															"fieldNo": "d29a1d1d-f4f8-46a7-caad-5992c1cc419d",
-															"fieldName": "oGridDataPD4",
-															"fieldParent": "f17c48ac-00e6-487b-9272-781240d1db64",
-															"fieldType": "sap.ui.layout.GridData",
-															"script": "",
-															"customComponent": false,
-															"disabled": true,
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "spanS",
-																	"grouping": "Properties",
-																	"value": "8",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "spanM",
-																	"grouping": "Properties",
-																	"value": "8",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "spanL",
-																	"grouping": "Properties",
-																	"value": "8",
-																	"script": "",
-																	"translation": []
-																}
-															],
-															"data": []
-														},
-														{
-															"fieldNo": "2a57974b-5197-4624-d0d2-183f5ec9f650",
-															"fieldName": "oGridDataPD5",
-															"fieldParent": "f17c48ac-00e6-487b-9272-781240d1db64",
-															"fieldType": "sap.ui.layout.GridData",
-															"script": "",
-															"customComponent": false,
-															"disabled": true,
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "spanS",
-																	"grouping": "Properties",
-																	"value": "4",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "spanM",
-																	"grouping": "Properties",
-																	"value": "4",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "spanL",
-																	"grouping": "Properties",
-																	"value": "4",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "linebreak",
-																	"grouping": "Properties",
-																	"value": "true",
-																	"script": "",
-																	"translation": []
-																}
-															],
-															"data": []
-														},
-														{
-															"fieldNo": "b121671a-a855-410b-a7d8-2b87638b629c",
-															"fieldName": "oGridDataPD6",
-															"fieldParent": "f17c48ac-00e6-487b-9272-781240d1db64",
-															"fieldType": "sap.ui.layout.GridData",
-															"script": "",
-															"customComponent": false,
-															"disabled": true,
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "spanS",
-																	"grouping": "Properties",
-																	"value": "8",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "spanM",
-																	"grouping": "Properties",
-																	"value": "8",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "spanL",
-																	"grouping": "Properties",
-																	"value": "8",
 																	"script": "",
 																	"translation": []
 																}
@@ -4945,27 +4372,6 @@
 													"attribute": "editable",
 													"grouping": "Properties",
 													"value": "false",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "bd1191cb-ef08-4371-d304-268944a23537",
-											"fieldName": "oTextDFRating",
-											"fieldParent": "5ccacadd-d9c4-48ea-abea-ab25de623f7a",
-											"fieldType": "sap.m.Text",
-											"script": "",
-											"customComponent": false,
-											"disabled": true,
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "{/rating}",
 													"script": "",
 													"translation": []
 												}
@@ -5521,35 +4927,6 @@
 													"attribute": "text",
 													"grouping": "Properties",
 													"value": "Total Price",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "d4e154d2-f9f3-47a1-ad11-d4ec19497999",
-											"fieldName": "oTextFinalPriceHotel",
-											"fieldParent": "5ccacadd-d9c4-48ea-abea-ab25de623f7a",
-											"fieldType": "sap.m.Text",
-											"script": "",
-											"customComponent": false,
-											"disabled": true,
-											"bindingType": "h",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "{/price, /currency}",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "text",
-													"grouping": "Formatter",
-													"value": "Anonymous Function",
 													"script": "",
 													"translation": []
 												}
@@ -6259,27 +5636,6 @@
 											"data": []
 										},
 										{
-											"fieldNo": "4c601624-18e2-4c4a-ae16-f46dd8bfaa08",
-											"fieldName": "oTextVehicleRateAmountCurrency",
-											"fieldParent": "59c54adf-3e69-442c-e642-36e4d33b221c",
-											"fieldType": "sap.m.Text",
-											"script": "",
-											"customComponent": false,
-											"disabled": true,
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "{/rateCurrency}",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
 											"fieldNo": "3185d3d9-037c-4e7d-b4f8-87d6fb989157",
 											"fieldName": "oLabelVehicleRateTaxes",
 											"fieldParent": "59c54adf-3e69-442c-e642-36e4d33b221c",
@@ -6314,27 +5670,6 @@
 													"attribute": "text",
 													"grouping": "Properties",
 													"value": "{/totalTaxFees} EUR",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "b45793a4-6510-4653-c396-71a498ee2d42",
-											"fieldName": "oTextVehicleRateTaxesCurrency",
-											"fieldParent": "59c54adf-3e69-442c-e642-36e4d33b221c",
-											"fieldType": "sap.m.Text",
-											"script": "",
-											"customComponent": false,
-											"disabled": true,
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "{/rateCurrency}",
 													"script": "",
 													"translation": []
 												}
@@ -6383,27 +5718,6 @@
 													"attribute": "text",
 													"grouping": "Properties",
 													"value": "{/totalReservation} EUR",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "26215b89-0306-4b65-b58b-ef33f15a1bd2",
-											"fieldName": "oTextVehicleRateTotalCurrency",
-											"fieldParent": "59c54adf-3e69-442c-e642-36e4d33b221c",
-											"fieldType": "sap.m.Text",
-											"script": "",
-											"customComponent": false,
-											"disabled": true,
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "{/rateCurrency}",
 													"script": "",
 													"translation": []
 												}
@@ -6472,7 +5786,7 @@
 										},
 										{
 											"fieldNo": "e3284082-d437-4556-e8aa-3d51d3c7d5b0",
-											"fieldName": "Text",
+											"fieldName": "TextDropOffSelection",
 											"fieldParent": "59c54adf-3e69-442c-e642-36e4d33b221c",
 											"fieldType": "sap.m.Text",
 											"script": "",
@@ -6485,28 +5799,6 @@
 													"attribute": "text",
 													"grouping": "Properties",
 													"value": "{/formattedDropff}",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "d12a057a-776e-43d8-e81a-c6f6673b1988",
-											"fieldName": "oTextVehicleRateDropoffSelection",
-											"fieldParent": "59c54adf-3e69-442c-e642-36e4d33b221c",
-											"fieldType": "sap.m.Text",
-											"script": "",
-											"customComponent": false,
-											"disabled": true,
-											"bindingType": "h",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "{formattedDropoff}",
 													"script": "",
 													"translation": []
 												}
@@ -8247,41 +7539,6 @@
 					]
 				},
 				{
-					"fieldNo": "25efe35c-157a-448b-fbe9-04011aa75121",
-					"fieldName": "oRestAPIExchangeRates",
-					"fieldParent": 99999,
-					"fieldType": "neptune.restapi",
-					"script": "",
-					"customComponent": false,
-					"restSource": "7517fb2f-18c8-415c-ab35-57978c67df66",
-					"restOperation": "f9088c18-47fd-423f-e1dd-d7baec3c0212",
-					"request": [],
-					"response": [
-						{
-							"status": "200",
-							"dataId": "6136edec-b4af-48c5-fc2b-672ed13a8397",
-							"modelFieldNo": "40facdc6-40e8-4f63-8999-55d1838b5691"
-						}
-					],
-					"attributes": [
-						{
-							"attribute": "setInitLoad",
-							"grouping": "Model",
-							"value": "online",
-							"script": "",
-							"translation": []
-						},
-						{
-							"attribute": "ajaxSuccess",
-							"grouping": "Events",
-							"value": "Anonymous Function",
-							"script": "file://event/neptune.restapi/oRestAPIExchangeRates/ajaxSuccess.script",
-							"translation": []
-						}
-					],
-					"data": []
-				},
-				{
 					"fieldNo": "40facdc6-40e8-4f63-8999-55d1838b5691",
 					"fieldName": "oMultiModelExchangeRates",
 					"fieldParent": 99999,
@@ -8379,7 +7636,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "24.06.05.1223",
+	"ver": "24.06.05.1253",
 	"application": "travel_expenses_summary_cart",
 	"title": "",
 	"description": "",
@@ -8425,11 +7682,6 @@
 			"id": "b8bbfd14-706e-ee11-9937-000d3a66797c",
 			"name": "API countries",
 			"ver": "24.06.05.1031"
-		},
-		{
-			"id": "7517fb2f-18c8-415c-ab35-57978c67df66",
-			"name": "ExchangeRates",
-			"ver": "20.12.8.1734"
 		}
 	],
 	"package": "af681f59-150d-ef11-96f5-000d3a662316"

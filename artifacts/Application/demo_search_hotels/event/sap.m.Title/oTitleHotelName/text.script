@@ -1,3 +1,0 @@
-if (typeof name === "undefined" || name === null || name === "") { return; }  
-var formattedText = name; 
-return formattedText;

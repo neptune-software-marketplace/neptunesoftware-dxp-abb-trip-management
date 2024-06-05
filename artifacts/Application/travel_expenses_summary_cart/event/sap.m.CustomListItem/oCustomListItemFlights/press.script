@@ -1,6 +1,8 @@
 var context = oEvent.oSource.getBindingContext();
 var dat = context.getObject();
 var data = dat.detailInfo;
+
+//console.log("DATA: ", data);
 data.id = dat.id;
 modeloListOutboundSegments.setData(data.outbSegments);
 modeloListInboundSegments.setData(data.inbSegments)

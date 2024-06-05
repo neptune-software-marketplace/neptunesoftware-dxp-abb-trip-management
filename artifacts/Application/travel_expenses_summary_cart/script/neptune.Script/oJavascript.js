@@ -2,6 +2,11 @@
 //     apioRestAPIExchangeRates();
 // });
 
+setTimeout(() => {
+    oButtonRefreshListss.firePress();
+}, 100);
+
+
 function callValuesTotalsAndCalculateTripValue() {
   setTimeout(function(){ 
     getValuesAndTotals();
@@ -20,8 +25,7 @@ function calculateTripValue(){
     oButtonBookNow.setEnabled(false);
     
     var totalTripCostings = 0
-
-    //Get exchange rates from model
+  //Get exchange rates from model
     //var exchangeRateModel = modeloMultiModelExchangeRates.oData;
 
 
@@ -47,10 +51,10 @@ function calculateTripValue(){
 
     //----- HOTEL -----
     var hotelModel = modeloListHotelsSelected.oData;
-   // console.log(hotelModel)
+    //console.log(hotelModel)
     for (i = 0; i < hotelModel.length; i++) {
         var detectedCurrency = hotelModel[i].currency;
-        //console.log("HOTEL",detectedCurrency)
+       // console.log("HOTEL",detectedCurrency)
         if(detectedCurrency === "EUR") {
             totalTripCostings = totalTripCostings + parseFloat(hotelModel[i].price);
         }else if(detectedCurrency === "GBP"){
