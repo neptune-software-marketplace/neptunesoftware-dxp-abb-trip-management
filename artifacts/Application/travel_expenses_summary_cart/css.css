@@ -9,7 +9,16 @@
     margin-bottom: 5px;
 }
 
+.fontTotal{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
 .TotalPriceTitle.sapMBarChild.sapMTitle.sapMTitleMaxWidth.sapMTitleNoWrap.sapMTitleStyleH3.sapUiSelectable{
     color: #000;
     text-shadow: 0 0 0.125rem #fff;
+}
+
+.gridPriceFlight{
+    min-width: 17rem;
 }
