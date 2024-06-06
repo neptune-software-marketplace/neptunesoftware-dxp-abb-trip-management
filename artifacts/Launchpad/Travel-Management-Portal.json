@@ -35,9 +35,9 @@
 		"<script src=\"//cdnjs.cloudflare.com/ajax/libs/moment.js/2.7.0/moment.min.js\" type=\"text/javascript\"></script>"
 	],
 	"customTheme": null,
-	"isExternal": true,
+	"isExternal": false,
 	"emailPattern": null,
-	"loginApp": "dxploginapp_v2",
+	"loginApp": "",
 	"enableNotifications": false,
 	"firebaseProjectId": null,
 	"firebaseAppId": null,
@@ -55,7 +55,7 @@
 	"searchEnableShadeCalc": null,
 	"usedEnableShadeCalc": null,
 	"enableTrace": true,
-	"ver": "24.06.05.1258",
+	"ver": "24.06.06.0913",
 	"pwa_enable": false,
 	"pwa_customImageIos": null,
 	"pwa_customImageAndroidOld": null,
@@ -64,7 +64,7 @@
 	"pwa_themeColor": "rgb(255,255,255)",
 	"pwa_backgroundColor": "rgb(255,255,255)",
 	"passwordResetEmail": null,
-	"activationCodeEmail": "4FC72AFE-2506-EF11-AAF0-000D3ADAF09C",
+	"activationCodeEmail": null,
 	"package": "af681f59-150d-ef11-96f5-000d3a662316",
 	"cat": [
 		{
