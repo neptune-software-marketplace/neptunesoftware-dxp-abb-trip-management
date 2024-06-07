@@ -7,7 +7,7 @@
 	},
 	"name": "neptunesoftware-dxp-abb-trip-management",
 	"description": "Hotel booking, flight booking, car hire apps",
-	"ver": "24.06.06.0914",
+	"ver": "24.06.06.1034",
 	"enableCICD": true,
 	"apps": [
 		{

@@ -71,25 +71,25 @@
 			"id": "7a011ae4-4e22-ef11-86d2-000d3ad88627",
 			"name": "Travel - Cart",
 			"title": "Bookings Cart",
-			"ver": "24.06.05.1126"
+			"ver": "24.06.07.1027"
 		},
 		{
 			"id": "5a23506b-5517-ef11-96f5-000d3add6b9f",
 			"name": "Travel - Car Hire",
 			"title": "Hire a Car",
-			"ver": "24.05.27.1017"
+			"ver": "24.06.07.1027"
 		},
 		{
 			"id": "331007e8-4a17-ef11-96f5-000d3add6b9f",
 			"name": "Travel - Flights",
 			"title": "Book your Flight",
-			"ver": "24.05.24.1003"
+			"ver": "24.06.07.1026"
 		},
 		{
 			"id": "0f03780b-5517-ef11-96f5-000d3add6b9f",
 			"name": "Travel - Hotels",
 			"title": "Book your Hotel",
-			"ver": "24.05.24.1053"
+			"ver": "24.06.07.1026"
 		}
 	],
 	"tilegroups": []
