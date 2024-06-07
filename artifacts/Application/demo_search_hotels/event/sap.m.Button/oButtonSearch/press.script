@@ -33,6 +33,7 @@ var checkOutDate = moment(checkOutDatex).format("YYYY-MM-DD");
 
 
 
+
 var options = {
     parameters: {
         "where": JSON.stringify({location: oInputSLocationKey.getValue() }), // Optional 
@@ -44,3 +45,5 @@ var options = {
 };
 
 apioAPI_table_hotelList(options);
+
+resize(window.matchMedia("(max-width: 580px)"));

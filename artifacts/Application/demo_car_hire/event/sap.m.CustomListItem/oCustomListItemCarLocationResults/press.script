@@ -100,5 +100,7 @@ var options = {
 };
  //console.log(options);
 apioAPICarHireCars(options)
+resize(window.matchMedia("(max-width: 580px)"));
 
 oApp.setBusy(true);
+

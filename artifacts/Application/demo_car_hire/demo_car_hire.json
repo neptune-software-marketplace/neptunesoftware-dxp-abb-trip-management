@@ -1172,7 +1172,7 @@
 																{
 																	"attribute": "width",
 																	"grouping": "Properties",
-																	"value": "100%",
+																	"value": "80%",
 																	"script": "",
 																	"translation": []
 																},
@@ -3019,7 +3019,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "24.06.05.1253",
+	"ver": "24.06.07.1100",
 	"application": "demo_car_hire",
 	"title": "",
 	"description": "",

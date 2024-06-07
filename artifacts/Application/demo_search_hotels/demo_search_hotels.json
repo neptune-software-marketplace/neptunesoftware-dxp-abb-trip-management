@@ -817,6 +817,13 @@
 																	"value": "RoundedCircle",
 																	"script": "",
 																	"translation": []
+																},
+																{
+																	"attribute": "styleClassVisibility",
+																	"grouping": "Properties",
+																	"value": "sapUiHideOnPhone",
+																	"script": "",
+																	"translation": []
 																}
 															],
 															"data": []
@@ -834,7 +841,7 @@
 																{
 																	"attribute": "width",
 																	"grouping": "Properties",
-																	"value": "50%",
+																	"value": "70%",
 																	"script": "",
 																	"translation": []
 																},
@@ -860,7 +867,7 @@
 																		{
 																			"attribute": "titleStyle",
 																			"grouping": "Properties",
-																			"value": "H3",
+																			"value": "H4",
 																			"script": "",
 																			"translation": []
 																		},
@@ -1334,6 +1341,13 @@
 																					"value": "Bolder",
 																					"script": "",
 																					"translation": []
+																				},
+																				{
+																					"attribute": "styleClassVisibility",
+																					"grouping": "Properties",
+																					"value": "sapUiHideOnPhone",
+																					"script": "",
+																					"translation": []
 																				}
 																			],
 																			"data": []
@@ -1352,6 +1366,13 @@
 																					"attribute": "styleClass",
 																					"grouping": "Properties",
 																					"value": "ratingBtn",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "styleClassVisibility",
+																					"grouping": "Properties",
+																					"value": "sapUiHideOnPhone",
 																					"script": "",
 																					"translation": []
 																				},
@@ -1381,6 +1402,13 @@
 																			"attribute": "width",
 																			"grouping": "Properties",
 																			"value": "100%",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "styleClassMargin",
+																			"grouping": "Properties",
+																			"value": "sapUiTinyMarginBegin",
 																			"script": "",
 																			"translation": []
 																		},
@@ -1437,6 +1465,13 @@
 																					"value": "smallText",
 																					"script": "",
 																					"translation": []
+																				},
+																				{
+																					"attribute": "styleClassVisibility",
+																					"grouping": "Properties",
+																					"value": "sapUiHideOnPhone",
+																					"script": "",
+																					"translation": []
 																				}
 																			],
 																			"data": []
@@ -1461,7 +1496,14 @@
 																				{
 																					"attribute": "fontSize",
 																					"grouping": "Properties",
-																					"value": "FontSize3",
+																					"value": "FontSize4",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "styleClass",
+																					"grouping": "Properties",
+																					"value": "priceDetails",
 																					"script": "",
 																					"translation": []
 																				},
@@ -1525,6 +1567,7 @@
 																	"fieldType": "nep.bootstrap.Button",
 																	"script": "",
 																	"customComponent": false,
+																	"disabled": true,
 																	"request": [],
 																	"response": [],
 																	"attributes": [
@@ -4430,7 +4473,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "24.06.05.1235",
+	"ver": "24.06.07.1200",
 	"application": "demo_search_hotels",
 	"title": "",
 	"description": "",
