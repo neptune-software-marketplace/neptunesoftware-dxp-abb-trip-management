@@ -1,2 +1,2 @@
 clearForm();
-OpenoMsgInfo();
+OpenMessageBoxInfo();

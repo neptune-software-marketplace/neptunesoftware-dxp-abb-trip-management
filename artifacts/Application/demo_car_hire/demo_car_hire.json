@@ -2691,7 +2691,7 @@
 														{
 															"attribute": "icon",
 															"grouping": "Properties",
-															"value": "sap-icon://fa-solid/shopping-basket",
+															"value": "sap-icon://fas/basket-shopping",
 															"script": "",
 															"translation": []
 														},
@@ -2822,14 +2822,6 @@
 									"grouping": "Properties",
 									"value": "OK",
 									"script": "",
-									"translation": []
-								},
-								{
-									"attribute": "callback",
-									"grouping": "Events",
-									"value": "Anonymous Function",
-									"script": "file://event/sap.m.MessageBox/oMsgInfo/callback.js",
-									"language": "javascript",
 									"translation": []
 								}
 							],
@@ -3019,7 +3011,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "24.06.07.1100",
+	"ver": "25.05.20.1415",
 	"application": "demo_car_hire",
 	"title": "",
 	"description": "",
@@ -3044,7 +3036,7 @@
 	"ui5_url": "https://openui5.hana.ondemand.com/1.71.56/resources/sap-ui-core.js",
 	"cus_theme": "",
 	"css": "file:///css.css",
-	"compiledCss": "file://script/undefined/undefined.script",
+	"compiledCss": "file:///compiledCss.css",
 	"header": "file:///header.html",
 	"manifest": "",
 	"globalScript": null,
@@ -3060,6 +3052,7 @@
 	"printWidth": null,
 	"generateVersionOnActivation": false,
 	"activationHistoryCount": 0,
+	"package": "af681f59-150d-ef11-96f5-000d3a662316",
 	"apis": [
 		{
 			"id": "da056602-250d-ef11-96f5-000d3a662316",
@@ -3076,6 +3069,5 @@
 			"name": "amadeus_locationssearch",
 			"ver": "24.05.08.0838"
 		}
-	],
-	"package": "af681f59-150d-ef11-96f5-000d3a662316"
+	]
 }

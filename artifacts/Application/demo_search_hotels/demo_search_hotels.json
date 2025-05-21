@@ -4394,14 +4394,6 @@
 							"value": "OK",
 							"script": "",
 							"translation": []
-						},
-						{
-							"attribute": "callback",
-							"grouping": "Events",
-							"value": "Anonymous Function",
-							"script": "file://event/sap.m.MessageBox/oMsgInfo/callback.js",
-							"language": "javascript",
-							"translation": []
 						}
 					],
 					"data": []
@@ -4473,7 +4465,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "24.06.07.1200",
+	"ver": "25.05.20.1413",
 	"application": "demo_search_hotels",
 	"title": "",
 	"description": "",
@@ -4498,7 +4490,7 @@
 	"ui5_url": "https://openui5.hana.ondemand.com/resources/sap-ui-core.js",
 	"cus_theme": "",
 	"css": "file:///css.css",
-	"compiledCss": "file://script/undefined/undefined.script",
+	"compiledCss": "file:///compiledCss.css",
 	"header": "<script src=\"//cdnjs.cloudflare.com/ajax/libs/moment.js/2.7.0/moment.min.js\" type=\"text/javascript\"></script>",
 	"manifest": "",
 	"globalScript": null,
@@ -4514,6 +4506,7 @@
 	"printWidth": null,
 	"generateVersionOnActivation": false,
 	"activationHistoryCount": 0,
+	"package": "af681f59-150d-ef11-96f5-000d3a662316",
 	"apis": [
 		{
 			"id": "a943eb63-0f0d-ef11-96f5-000d3a662316",
@@ -4525,6 +4518,5 @@
 			"name": "amadeus_locationssearch",
 			"ver": "24.05.08.0838"
 		}
-	],
-	"package": "af681f59-150d-ef11-96f5-000d3a662316"
+	]
 }

@@ -3862,6 +3862,13 @@
 															"translation": []
 														},
 														{
+															"attribute": "position",
+															"grouping": "Properties",
+															"value": "Center",
+															"script": "",
+															"translation": []
+														},
+														{
 															"attribute": "hSpacing",
 															"grouping": "Properties",
 															"value": "0",
@@ -4831,7 +4838,6 @@
 											"fieldType": "sap.m.HBox",
 											"script": "",
 											"customComponent": false,
-											"disabled": true,
 											"request": [],
 											"response": [],
 											"attributes": [],
@@ -7846,8 +7852,8 @@
 					"data": []
 				},
 				{
-					"fieldNo": "649de566-6aed-4ba2-9635-27de82760da2",
-					"fieldName": "oMsgInfo",
+					"fieldNo": "ce808b1f-21fb-4712-a600-6de69baf0536",
+					"fieldName": "MessageBoxInfo",
 					"fieldParent": 99999,
 					"fieldType": "sap.m.MessageBox",
 					"script": "",
@@ -7875,14 +7881,6 @@
 							"value": "OK",
 							"script": "",
 							"translation": []
-						},
-						{
-							"attribute": "callback",
-							"grouping": "Events",
-							"value": "Anonymous Function",
-							"script": "file://event/sap.m.MessageBox/oMsgInfo/callback.js",
-							"language": "javascript",
-							"translation": []
 						}
 					],
 					"data": []
@@ -7895,7 +7893,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "24.06.06.1031",
+	"ver": "25.05.20.1422",
 	"application": "travel_expenses_summary_cart",
 	"title": "",
 	"description": "",
@@ -7920,7 +7918,7 @@
 	"ui5_url": "",
 	"cus_theme": "",
 	"css": "file:///css.css",
-	"compiledCss": "file://script/undefined/undefined.script",
+	"compiledCss": "file:///compiledCss.css",
 	"header": "",
 	"manifest": "",
 	"globalScript": null,
@@ -7936,12 +7934,12 @@
 	"printWidth": null,
 	"generateVersionOnActivation": false,
 	"activationHistoryCount": 0,
+	"package": "af681f59-150d-ef11-96f5-000d3a662316",
 	"apis": [
 		{
 			"id": "b8bbfd14-706e-ee11-9937-000d3a66797c",
 			"name": "API countries",
 			"ver": "24.06.05.1031"
 		}
-	],
-	"package": "af681f59-150d-ef11-96f5-000d3a662316"
+	]
 }

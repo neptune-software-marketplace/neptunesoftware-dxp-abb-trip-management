@@ -3497,9 +3497,23 @@
 															"translation": []
 														},
 														{
+															"attribute": "position",
+															"grouping": "Properties",
+															"value": "Center",
+															"script": "",
+															"translation": []
+														},
+														{
 															"attribute": "hSpacing",
 															"grouping": "Properties",
 															"value": "0",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "position",
+															"grouping": "Properties",
+															"value": "Center",
 															"script": "",
 															"translation": []
 														}
@@ -4160,14 +4174,6 @@
 							"value": "OK",
 							"script": "",
 							"translation": []
-						},
-						{
-							"attribute": "callback",
-							"grouping": "Events",
-							"value": "Anonymous Function",
-							"script": "file://event/sap.m.MessageBox/oMsgInfo/callback.js",
-							"language": "javascript",
-							"translation": []
 						}
 					],
 					"data": []
@@ -4651,7 +4657,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "24.06.06.1031",
+	"ver": "25.05.20.1410",
 	"application": "demo_search_flights",
 	"title": "",
 	"description": "",
@@ -4676,7 +4682,7 @@
 	"ui5_url": "https://openui5.hana.ondemand.com/resources/sap-ui-core.js",
 	"cus_theme": "",
 	"css": "file:///css.css",
-	"compiledCss": "file://script/undefined/undefined.script",
+	"compiledCss": "file:///compiledCss.css",
 	"header": "<script src=\"//cdnjs.cloudflare.com/ajax/libs/moment.js/2.7.0/moment.min.js\" type=\"text/javascript\"></script>",
 	"manifest": "",
 	"globalScript": null,
@@ -4692,6 +4698,7 @@
 	"printWidth": null,
 	"generateVersionOnActivation": false,
 	"activationHistoryCount": 0,
+	"package": "af681f59-150d-ef11-96f5-000d3a662316",
 	"apis": [
 		{
 			"id": "607ba8a6-1a0d-ef11-96f5-000d3a662316",
@@ -4703,6 +4710,5 @@
 			"name": "amadeus_locationssearch",
 			"ver": "24.05.08.0838"
 		}
-	],
-	"package": "af681f59-150d-ef11-96f5-000d3a662316"
+	]
 }
